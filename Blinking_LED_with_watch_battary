@@ -1,0 +1,15 @@
+Source:	C:\Users\Ben Cunningham\Documents\KiCAD_Projects\Blinking_LED_with_watch_battary\Blinking_LED_with_watch_battary.sch
+Date:	2019-06-20 23:27:47
+Tool:	Eeschema (5.1.2)-2
+Component Count:	10
+Ref	Value	Part	Footprint	Description	Vendor
+C1	22uF	pspice:CAP	Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder	Capacitor symbol for simulation only	
+C2	.01uF	pspice:CAP	Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder	Capacitor symbol for simulation only	
+D1	Green	pspice:DIODE	LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder	Diode symbol for simulation only. Pin order incompatible with official kicad footprints	
+D2	Red	pspice:DIODE	LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder	Diode symbol for simulation only. Pin order incompatible with official kicad footprints	
+R1	100k	pspice:R	Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder	Resistor symbol for simulation only	
+R2	1k	pspice:R	Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder	Resistor symbol for simulation only	
+R3	100R	pspice:R	Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder	Resistor symbol for simulation only	
+R4	100R	pspice:R	Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder	Resistor symbol for simulation only	
+U1	LM555	Timer:LM555	Package_SO:SOIC-8_3.9x4.9mm_P1.27mm	Timer, DIP-8/SOIC-8/SSOP-8	
+V1	+12V	pspice:VSOURCE	Battery:BatteryHolder_Keystone_3001_1x12mm	Voltage source symbol for simulation only	
